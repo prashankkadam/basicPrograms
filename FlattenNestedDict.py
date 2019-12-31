@@ -9,14 +9,15 @@ version : 1.0
 """
 
 # Code to flatten a nested dictionary
-
+# Importing the required libraries
 import ast, sys
 from collections import MutableMapping as mm
 
+# Taking input from the user
 input_str = sys.stdin.read()
 input_dict = dict(ast.literal_eval(input_str))
 
-
+# Function to flatten the nested dictionary:
 def flatten_dict(d, parent_key='', sep='_'):
     items = []
     for k, v in d.items():
