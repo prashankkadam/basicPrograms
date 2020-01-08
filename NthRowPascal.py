@@ -13,7 +13,7 @@ version : 1.0
 
 def pascal_line(n):
     line = [1]
-#    mid, even = divmod(n, 2)
+    mid, even = divmod(n, 2)
     for k in range(1, mid + 1):
         num = int(line[k - 1] * (n + 1 - k) / (k))
         line.append(num)
