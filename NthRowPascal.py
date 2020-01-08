@@ -9,8 +9,6 @@ version : 1.0
 """
 
 # Returning the nth row in a pascals triangle
-
-
 def pascal_line(n):
     line = [1]
     mid, even = divmod(n, 2)
