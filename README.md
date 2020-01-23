@@ -12,3 +12,5 @@ Update - Calculate the difference between the Max and Min indices of an element 
 Update - Comments Updated - (02/01/2020)
 
 Update - Removing redundant code - (08/01/2020)
+
+Update - Added a program for finding the factors of a given number
